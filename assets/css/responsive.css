@@ -197,7 +197,7 @@ and (min-width : 1824px) {
 		min-height: 911px; 
 	}
 	.page-content .content{ 
-		padding-top: 95px;
+		padding-top: 260px;
 	}
 	
 	.inner-menu-layout .page-content{
@@ -251,7 +251,7 @@ and (orientation : portrait) {
 		display:none;
 	}
 	.page-content .content {
-		padding-top:95px;
+		padding-top:260px;
 	}
 	.page-sidebar {
 	    position: fixed;
@@ -337,7 +337,7 @@ and (orientation : portrait) {
 	}
 	.page-content .content {
 		padding:25px;		 
-		padding-top:95px;
+		padding-top:260px;
 	}
 	
 	.widget{
@@ -461,7 +461,7 @@ and (orientation : portrait) {
 	/*** Page content ***/
 	.page-content .content {
 		padding:8px;
-		padding-top:95px;
+		padding-top:260px;
 	}
 	/*** Page title	***/
 	.page-title {
@@ -539,7 +539,7 @@ and (orientation : portrait) {
 	}	
 	.page-content .content {
 		 padding:8px;
-		 padding-top:93px;
+		 padding-top:260px;
 		 overflow-x:hidden;
 	}
 	.page-sidebar{
