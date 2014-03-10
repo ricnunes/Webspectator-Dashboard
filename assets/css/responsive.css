@@ -66,7 +66,7 @@ and (min-width : 1824px) {
 		float: left;
 		position: fixed;
 		width: 245px;
-		padding-top:90px;
+		padding:90px 20px 0;
 		left: 95px;
   	}
 
@@ -76,9 +76,7 @@ and (min-width : 1824px) {
 	.page-sidebar.fixed{
 		position: fixed;
 	}	
-  	.page-sidebar ul{
-  		width: 245px;
-  	}
+
 
   	/*** Page content ***/
   	.page-content { 

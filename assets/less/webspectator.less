@@ -176,7 +176,18 @@
 	left: -95px !important;
 }
 
+.slimScrollDiv {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	height: 100% !important;
+}
+
+
 #main-chat-wrapper {
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+	height: 100% !important;
+	width: 290px !important;
 	
 	#notifications {
 		.chat-header {
@@ -236,3 +247,81 @@
 }
 
 
+.page-sidebar {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	height: 100%;
+	.page-sidebar-wrapper {
+		overflow-x: hidden !important;
+		overflow-y: auto !important;
+		height: 100%;
+		width: 240px;
+		padding: 0 20px 0 0;
+	}
+	.btn-ws {
+	background: @ws-green;
+	color: @color-white;
+	padding: 7px 20px 9px;
+	margin-bottom: 10px;
+	&:focus, &:hover {
+		background: @ws-green - @dark;
+		color: @color-white;
+	}
+	}
+
+	.dropdown-ws {
+	background: @ws-btn-black;
+	width: 206px;
+	text-align: left;
+	margin-bottom: 10px;
+	color: @ws-text-grey;
+	&:focus, &:hover {
+		background: @ws-btn-black - @dark;
+		color: @ws-text-grey;
+	}
+	.caret {
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		border-top: 4px solid #ccc;
+	}
+
+	}
+	.btn-group.open {
+	.btn.dropdown-ws {
+		background: @ws-btn-black - @dark;
+	}
+	}
+
+	.ws-search {
+	width: 100%;
+	background: @ws-black !important;
+	color: @ws-text-grey !important;
+	border-radius: 4px !important;
+
+	}
+	.add-on {
+		position: relative;
+		top: -30px;
+		left: 175px;
+	}
+	.list-items {
+		margin: 0 10px;
+		.divider {
+			background-color: #3f3f3f;
+			height: 1px;
+			margin: 15px 0px;
+			overflow: hidden;
+			border-bottom: 0 none;
+		}
+		li a {
+			color: @ws-text-grey;
+			span {
+				font-size: 12px;
+				color: #bababa;
+				display: block;
+			}
+		}
+	}
+
+}
