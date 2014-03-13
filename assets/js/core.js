@@ -355,7 +355,7 @@ $(document).ready(function() {
 			$('#admin').hide();
 			$('#reports').hide();
 			$('#main_orders').show();
-			$('#main_apps').hide();
+			$('#main_applications').hide();
 			$('#main_reports').hide();
 			$('#main_pins').hide();
 			$('#main_admin').hide();
